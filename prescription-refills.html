@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prescription Refills | Frimps Pharmacy</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+    <nav class="nav-left">
+
+        <a href="index.html">Home</a>
+
+        <a href="weight-loss.html">Weight Loss</a>
+
+        <div class="dropdown">
+
+            <button class="dropbtn">
+                Conditions ▼
+            </button>
+
+            <div class="dropdown-content">
+
+                <a href="diabetes.html">Diabetes</a>
+                <a href="hypertension.html">Hypertension</a>
+                <a href="asthma.html">Asthma</a>
+                <a href="malaria.html">Malaria</a>
+                <a href="mens-health.html">Men's Health</a>
+                <a href="womens-health.html">Women's Health</a>
+
+            </div>
+
+        </div>
+
+        <a href="patient-stories.html">Patient Stories</a>
+
+    </nav>
+
+    <div class="logo">
+
+        <a href="index.html">
+            💊 FRIMPS PHARMACY
+        </a>
+
+    </div>
+
+    <div class="nav-right">
+
+        <a href="#" onclick="openChat()">
+            💬
+        </a>
+
+        <a href="login.html">
+            👤
+        </a>
+
+    </div>
+
+</header>
+
+<section class="page-section">
+
+    <h1>Prescription Refills</h1>
+
+    <p class="page-intro">
+        Uploading prescriptions is handled through WhatsApp for faster service.
+        Click the button below to chat with a pharmacist and send your prescription directly.
+    </p>
+
+    <div class="service-card">
+
+        <h2>Send Prescription via WhatsApp</h2>
+
+        <p>
+            A WhatsApp chat will open where you can attach a photo,
+            PDF, or image of your prescription.
+        </p>
+
+        <button
+            class="login-btn"
+            onclick="submitPrescription()">
+
+            Open WhatsApp
+
+        </button>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
