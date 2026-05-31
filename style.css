@@ -86,7 +86,7 @@ header{
     linear-gradient(
     rgba(0,0,0,.45),
     rgba(0,0,0,.45)),
-    url("images/hero-banner.jpg");
+    url("hero-banner.jpg");
 
     background-size:cover;
     background-position:center;
